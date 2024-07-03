@@ -1,4 +1,4 @@
-import  { Groups } from "./src/screens/Groups"
+import  { NewGroup } from "./src/screens/NewGroup"
 import { ThemeProvider } from "styled-components";
 import { StatusBar } from "react-native";
 import theme from "./src/theme";
@@ -7,7 +7,7 @@ import { Loading } from "./src/components/Loading"
 
 export default function App() {
   
- const [fontsLoaded] = useFonts({ Roboto_400Regular, Roboto_700Bold });
+ const [fontsLoaded] = useFonts({Roboto_400Regular, Roboto_700Bold });
 
   return (
     <ThemeProvider theme={theme}>
@@ -16,7 +16,7 @@ export default function App() {
       backgroundColor="transparent"
       translucent
       />
-      {fontsLoaded ? <Groups /> : <Loading />}
+      {fontsLoaded ? <NewGroup /> : <Loading />}
       </ThemeProvider>
   );
 }

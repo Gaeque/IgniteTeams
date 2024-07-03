@@ -7,15 +7,13 @@ export const Container = styled.View`
 
 export const Tittle = styled.Text`
     text-align: center;
-    font-size: ${({theme}) => theme.FONT_SIZE.XL};
-    font-family: ${({theme}) => theme.FONT_FAMILY.BOLD}px;
+    font-size: ${({theme}) => theme.FONT_SIZE.XL}px;
     color: ${({theme}) => theme.COLORS.WHITE};
 `;
 
 export const SubTittle = styled.Text`
     text-align: center;
-    font-size: ${({theme}) => theme.FONT_SIZE.MD};
-    font-family: ${({theme}) => theme.FONT_FAMILY.REGULAR}px;
+    font-size: ${({theme}) => theme.FONT_SIZE.MD}px;
     color: ${({theme}) => theme.COLORS.GRAY_300};
     margin-top: 20px;
 `;

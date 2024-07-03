@@ -16,13 +16,14 @@ export const Container = styled(TouchableOpacity)`
 `;
 
 
-export const Tittle = styled.text`
+export const Tittle = styled.Text`
     font-size: ${({theme}) => theme.FONT_SIZE.MD}px;
     color: ${({theme}) => theme.COLORS.GRAY_200};
-    font-family: ${({theme}) => theme.FONT_FAMILY.REGULAR};
+    margin-left: 28px;
+    font-size: 18px;
 `;
 
 export const Icon = styled.Image`
 width: 30px;
-height: 28px;
+height: 20px;
 `;
