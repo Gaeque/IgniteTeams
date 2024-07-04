@@ -15,5 +15,4 @@ export const SubTittle = styled.Text`
     text-align: center;
     font-size: ${({theme}) => theme.FONT_SIZE.MD}px;
     color: ${({theme}) => theme.COLORS.GRAY_300};
-    margin-top: 20px;
 `;
