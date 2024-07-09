@@ -1,4 +1,4 @@
-import  { Players } from "./src/screens/Players"
+import  { Routes } from "./src/routes"
 import { ThemeProvider } from "styled-components";
 import { StatusBar } from "react-native";
 import theme from "./src/theme";
@@ -16,7 +16,7 @@ export default function App() {
       backgroundColor="transparent"
       translucent
       />
-      {fontsLoaded ? <Players /> : <Loading />}
+      {fontsLoaded ? <Routes /> : <Loading />}
       </ThemeProvider>
   );
 }
